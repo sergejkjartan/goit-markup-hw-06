@@ -21,23 +21,26 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-
     <!-----------HEADER  ----------->
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo logo link">
-            <span class="accent">Web</span>Studio</a>
+            <span class="accent">Web</span>Studio</a
+          >
           <ul class="header-list list">
             <li class="header-item">
-              <a href="./index.html" class="header-link header-title link">Studio</a>
+              <a href="./index.html" class="header-link header-title link"
+                >Studio</a
+              >
             </li>
 
             <li class="header-item">
               <a
                 href="./portfolio.html"
                 class="header-link header-title link current"
-                >Portfolio</a>
+                >Portfolio</a
+              >
             </li>
 
             <li class="header-item">
@@ -49,20 +52,23 @@
         <address class="address">
           <ul class="address-contact list">
             <li class="address-item">
-              <a href="mailto:info@devstudio.com" class="address-link link subtitle"
-                >info@devstudio.com</a>
+              <a
+                href="mailto:info@devstudio.com"
+                class="address-link link subtitle"
+                >info@devstudio.com</a
+              >
             </li>
 
             <li class="address-item">
               <a href="tel:+110001111111" class="address-link link subtitle"
-                >+11 (000) 111-11-11</a>
+                >+11 (000) 111-11-11</a
+              >
             </li>
           </ul>
         </address>
       </div>
     </header>
     <main>
-
       <!--------- PORTFOLIO  -------->
       <section class="portfolio">
         <div class="container">
@@ -323,7 +329,8 @@
       <div class="container footer-flex">
         <div class="footer-descr-container">
           <a href="./index.html" class="footer-logo logo link"
-            ><span class="accent">Web</span>Studio</a>
+            ><span class="accent">Web</span>Studio</a
+          >
           <p class="footer-descr subtitle">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
@@ -356,7 +363,7 @@
                 </svg>
               </a>
             </li>
-            
+
             <li class="footer-soc-item">
               <a href="" class="footer-soc-link link">
                 <svg class="footer-soc-icon" width="24" height="24">
@@ -366,7 +373,29 @@
             </li>
           </ul>
         </div>
+
+        <!-- Subscribe to the website-->
+
+        <div class="subscribe-box">
+          <p class="subscribe-title header-title">Subscribe</p>
+          <form class="subscribe-form">
+            <input
+              class="subscribe-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button class="subscribe-submit button" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
